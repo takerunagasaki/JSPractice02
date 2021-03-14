@@ -21,11 +21,13 @@
   margin-right:2px;
 }
 .MathKekka{
+  width:97%;
   display:block;
-  padding-right: 5px;
-  padding-left: 5px;
+/*  padding-right: 5px;
+  padding-left: 5px;*/
   background-color:#000;
   color:#fff;
+  text-align:right;
 }
 .ContentWidth{
 /*  display:flex;*/

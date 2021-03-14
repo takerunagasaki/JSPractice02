@@ -11,38 +11,39 @@
         <h3>電卓</h3>
         <div class="ContentWidth">
             <!-- ここに記述していきましょう！ -->
-            <div class="MathKekka">0</div>
+            <!--<div class="MathKekka">0</div>-->
+            <input class="MathKekka"  value = "0" readonly>
             
             <div class="nobuttons">
-                <button class="nobutton" ID = "Nbutton" onClick="no(7,1)">7</button>
-                <button class="nobutton" ID = "Nbutton" onClick="no(8,1)">8</button>
-                <button class="nobutton" ID = "Nbutton" onClick="no(9,1)">9</button>
-                <button class="nobutton" ID = "Nbutton" onClick="noPlus()">+</button>
+                <button class="nobutton" ID = "Nbutton" onClick="no('7')">7</button>
+                <button class="nobutton" ID = "Nbutton" onClick="no('8')">8</button>
+                <button class="nobutton" ID = "Nbutton" onClick="no('9')">9</button>
+                <button class="nobutton" ID = "Nbutton" onClick="no('+')">+</button>
             </div>
             
             <div class="nobuttons">
-                <button class="nobutton" ID = "n04" onClick="no(4,1)">4</button>
-                <button class="nobutton" ID = "n05" onClick="no(5,1)">5</button>
-                <button class="nobutton" ID = "n06" onClick="no(6,1)">6</button>
-                <button class="nobutton" ID = "nMinus" onClick="noMinus()">-</button>
+                <button class="nobutton" ID = "n04" onClick="no('4')">4</button>
+                <button class="nobutton" ID = "n05" onClick="no('5')">5</button>
+                <button class="nobutton" ID = "n06" onClick="no('6')">6</button>
+                <button class="nobutton" ID = "nMinus" onClick="no('-')">-</button>
             </div>
             
             <div class="nobuttons">
-                <button class="nobutton" ID = "Nbutton" onClick="no(1,1)">1</button>
-                <button class="nobutton" ID = "n02" onClick="no(2,1)">2</button>
-                <button class="nobutton" ID = "n03" onClick="no(3,1)">3</button>
-                <button class="nobutton" ID = "nAst" onClick="noAst()">*</button>
+                <button class="nobutton" ID = "Nbutton" onClick="no('1')">1</button>
+                <button class="nobutton" ID = "n02" onClick="no('2')">2</button>
+                <button class="nobutton" ID = "n03" onClick="no('3')">3</button>
+                <button class="nobutton" ID = "nAst" onClick="no('*')">*</button>
             </div>
             
             <div class="nobuttons">
-                <button class="nobutton" ID = "Nbutton" onClick="no(0,1)">0</button>
-                <button class="nobutton" ID = "Nbutton" onClick="no(0,10)">00</button>
-                <button class="nobutton" ID = "ndot" onClick="nodot()">.</button>
-                <button class="nobutton" ID = "nSlash" onClick="noSlash()">/</button>
+                <button class="nobutton" ID = "Nbutton" onClick="no('0')">0</button>
+                <button class="nobutton" ID = "Nbutton" onClick="no('00')">00</button>
+                <button class="nobutton" ID = "ndot" onClick="no('.')">.</button>
+                <button class="nobutton" ID = "nSlash" onClick="no('/')">/</button>
             </div>
             
             <div class="nobuttons">
-                <button class="nobutton2" ID = "Nbutton" onClick="noAC()">AC</button>
+                <button class="nobutton2" ID = "Nbutton" onClick="noAC('0')">AC</button>
                 <button class="nobutton2" ID = "nEq" onClick="noEq()">=</button>
             </div>
             
